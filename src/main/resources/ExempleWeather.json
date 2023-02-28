@@ -1,0 +1,29 @@
+{
+  "lat": 59.3292,
+  "lon": 18.0006,
+  "timezone": "Europe/Stockholm",
+  "timezone_offset": 3600,
+  "current": {
+    "dt": 1677587756,
+    "sunrise": 1677563375,
+    "sunset": 1677600721,
+    "temp": 6.24,
+    "feels_like": 3.61,
+    "pressure": 1024,
+    "humidity": 70,
+    "dew_point": 1.18,
+    "uvi": 0.6,
+    "clouds": 0,
+    "visibility": 10000,
+    "wind_speed": 3.6,
+    "wind_deg": 270,
+    "weather": [
+      {
+        "id": 800,
+        "main": "Clear",
+        "description": "clear sky",
+        "icon": "01d"
+      }
+    ]
+  }
+}

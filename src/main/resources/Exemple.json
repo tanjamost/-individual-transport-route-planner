@@ -1,0 +1,1338 @@
+{
+  "geocoded_waypoints": [
+    {
+      "geocoder_status": "OK",
+      "place_id": "ChIJyVwAVYmeX0YRz9LWK195u_8",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_1"
+      ]
+    },
+    {
+      "geocoder_status": "OK",
+      "place_id": "ChIJdW5W-yV2X0YRbt8hQ-sjz9g",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "bounds": {
+        "northeast": {
+          "lat": 59.40247279999999,
+          "lng": 18.0396413
+        },
+        "southwest": {
+          "lat": 59.3291671,
+          "lng": 17.9466089
+        }
+      },
+      "copyrights": "Map data ©2023 Google",
+      "legs": [
+        {
+          "distance": {
+            "text": "14.7 km",
+            "value": 14654
+          },
+          "duration": {
+            "text": "19 mins",
+            "value": 1122
+          },
+          "duration_in_traffic": {
+            "text": "17 mins",
+            "value": 1044
+          },
+          "end_address": "Fredhäll, Kungsholmen, Stockholm, Sweden",
+          "end_location": {
+            "lat": 59.3291671,
+            "lng": 18.0005508
+          },
+          "start_address": "Kista, Stockholm, Sweden",
+          "start_location": {
+            "lat": 59.40247279999999,
+            "lng": 17.9466089
+          },
+          "steps": [
+            {
+              "distance": {
+                "text": "0.4 km",
+                "value": 424
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 47
+              },
+              "end_location": {
+                "lat": 59.3992058,
+                "lng": 17.9499032
+              },
+              "html_instructions": "Head <b>southeast</b> on <b>Hanstavägen</b> toward <b>Hanstavägen</b><div style=\"font-size:0.9em\">Go through 1 roundabout</div>",
+              "polyline": {
+                "points": "m`qiJieplB`@g@TY@B@B@@BB@@@@B@@?B?@A@?BA@C@A@C@C@C@E?C@E?E?C?E?E?EAC?EHGXUJINOh@i@HIrAqANONQX[fAkAv@}@`AkAXUHIRQHGFCXG"
+              },
+              "start_location": {
+                "lat": 59.40247279999999,
+                "lng": 17.9466089
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "0.3 km",
+                "value": 284
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 28
+              },
+              "end_location": {
+                "lat": 59.3970695,
+                "lng": 17.951847
+              },
+              "html_instructions": "At the roundabout, take the <b>2nd</b> exit toward <b>E4</b>/<wbr/><b>279</b>/<wbr/><b>Stockholm C</b>",
+              "maneuver": "roundabout-right",
+              "polyline": {
+                "points": "alpiJ{yplBBBBBFDBBN@DADAFCDCDGDGDKDMBOBO@K?IPo@HUHQRYTYf@k@LOJMXYd@i@JKJIHGFCFCFAJ?JBRFRF"
+              },
+              "start_location": {
+                "lat": 59.3992058,
+                "lng": 17.9499032
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "0.1 km",
+                "value": 138
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 13
+              },
+              "end_location": {
+                "lat": 59.39701159999999,
+                "lng": 17.9530282
+              },
+              "html_instructions": "Keep <b>left</b>, follow signs for <b>E18</b>",
+              "maneuver": "keep-left",
+              "polyline": {
+                "points": "u~oiJafqlBLBJ@FAH?DCFCBEBEBCDKDODMBQ@W@M?MEa@I]KQIKKGICM?I@"
+              },
+              "start_location": {
+                "lat": 59.3970695,
+                "lng": 17.951847
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "1.6 km",
+                "value": 1625
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 83
+              },
+              "end_location": {
+                "lat": 59.3990009,
+                "lng": 17.9772016
+              },
+              "html_instructions": "Merge onto <b>E18</b> via the ramp to <b>E4</b>",
+              "maneuver": "ramp-right",
+              "polyline": {
+                "points": "i~oiJmmqlBQMU[]q@_@s@g@mASe@M_@[}@Ma@YaAa@wAk@aCKe@I_@Om@EUIa@EQMKMm@Ge@Ic@Ie@[eBKm@Ge@Ie@G[Km@QiAQaAAGGe@YgBKm@Ie@Ge@Ie@Ic@Gg@Ia@Ga@c@uCc@yCIe@Gc@Ig@Ge@Ie@Ge@O_AKw@Gc@Gc@E_@Iq@Ea@CWMiAC[AQEk@Ca@Ee@A]Eu@Ae@Aq@Ak@Ay@?s@@g@@u@DyA@U@WDy@Da@Bc@Dc@Fa@Fc@Hg@BODSBOF[FWH[FSJ]?CRo@HQNc@BGBGVs@?Af@qA\\{@^{@Tk@JURa@Tc@n@uA\\s@P_@BC\\q@?A?A@?Bw@"
+              },
+              "start_location": {
+                "lat": 59.39701159999999,
+                "lng": 17.9530282
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "5.8 km",
+                "value": 5778
+              },
+              "duration": {
+                "text": "5 mins",
+                "value": 271
+              },
+              "end_location": {
+                "lat": 59.3568357,
+                "lng": 18.0321814
+              },
+              "html_instructions": "Merge onto <b>E4</b>",
+              "maneuver": "merge",
+              "polyline": {
+                "points": "wjpiJodvlBT[n@cANSR_@N[`@u@Xq@DIr@}ADGLY`@_AJW`CeGRg@j@}A\\{@Pc@LYHSHQ^aAnBaFXw@Vs@DIPe@@AXu@\\{@Vo@Rg@Pe@Zw@Vo@Rg@\\{@Xs@L[Ti@Zw@\\{@Ri@L[Zu@\\}@L[L]Z{@N_@J]Nc@L_@La@Nc@Lc@J[J]Jc@Ja@Ja@Lc@Jc@Ha@BIFYJa@Jc@Ha@@ATgATeANq@Pu@Pu@DSR}@Lk@Jc@Ja@Hc@H[Lg@Jc@Lc@J_@Le@Lg@J]ZcAVy@Nk@L]L_@L_@Z}@Na@L]L]N]L]N]L]N]N]N[L[LUPa@P[NYNYN[PYNYNYPYNW`@m@PWZc@j@w@b@m@f@m@`@i@fAwAb@k@b@k@b@m@t@aAv@cAb@i@PWRW\\e@T[d@m@b@i@r@_Ar@}@T[NSd@m@X_@h@y@rAeB~@mA|C_Eb@g@v@aAJOJMTY`@g@FI\\a@JMV[f@k@^c@x@_Ad@i@`AeAFMXY`@c@|@aAp@s@\\]Z]n@q@XYx@{@LOZ[f@k@`AiA\\a@V[^c@RWZa@V[LOjAwADCh@q@LO|@gADG^c@p@y@f@k@Z]PQTWXYXWRQl@g@n@c@JKd@WNIFELGb@UXKTKb@ORGDAf@OLCl@MNCf@I\\CXCDAb@E`AG^E@?ZCPATCTAFAF?^Ex@GXAVC\\C~@IzAMF?b@GNCTERGVGPGRIRIRKZONKPKROVQNMTURQNOPQTY^e@h@w@Xe@Ve@@ALUTe@DIbAqB\\o@`@w@NYNUR]Zi@Ze@\\e@TWLOV]^a@VWf@e@d@a@JKZSj@a@LK^Ur@e@NKLIXQ`@Y\\UROj@a@BE^[LK`@_@VUXYd@i@LOPUDGHIFKBE@?DIZc@LQ`@q@PWVg@Xg@Zk@R_@N[d@{@HQ`@w@LWN[R_@j@gAP_@P]Xk@"
+              },
+              "start_location": {
+                "lat": 59.3990009,
+                "lng": 17.9772016
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "3.7 km",
+                "value": 3670
+              },
+              "duration": {
+                "text": "3 mins",
+                "value": 194
+              },
+              "end_location": {
+                "lat": 59.33766850000001,
+                "lng": 18.0108614
+              },
+              "html_instructions": "Keep <b>left</b> to stay on <b>E4</b>",
+              "maneuver": "keep-left",
+              "polyline": {
+                "points": "gchiJc|`mBTc@NY^w@^w@`@y@LYN[N[N[Rc@Pa@LWN[\\w@^y@L[Pa@Ti@Vk@HWh@qATk@Tk@f@sALWJYXu@L]FOVq@N_@NUh@aAFIRSZYLONMj@c@NIHCJENEDCHAPENATCD?RAN?T?T@NBNBNBLDFBFBRH@?RJRLLHLJLJLLFHBBDFDFFLFJb@|@`@z@N`@p@`C?B`AfDDLd@`BTv@r@bCt@vCp@fCRx@`A`D\\fAbAlCvAvDHNPZ@@FJZh@Zf@DFf@v@LRLP?@NVj@x@l@~@Tn@Xd@RZLXPZL\\@BLZLb@DJNl@Ld@Hd@Jd@F^DZBNDf@Ff@Dj@BZ@NDd@Bd@Bj@Bd@Bl@BpA?j@?T?P?j@Al@Ah@Ah@Cf@Ad@En@Ef@Gr@K|@Gf@Id@Ih@If@Id@Ib@Id@Ib@Id@Id@Kd@Gb@o@vDSfAAFEXKn@EVCTG^Eh@G`@I~@C^C\\Ev@Cf@Aj@Av@Ah@?fA?z@@b@@Z@Z?@Bd@@\\Fp@Dh@Fd@NnAJd@Hb@H\\DPFTJ^J^N`@N`@\\p@JNTb@HLDDFFJJl@h@ZVLHJDBBJDJDLDLDH@`@F\\BJ?H?NALCXENCZKLIh@]t@i@t@q@DCPODEFGLMb@_@`@_@`@QRMVORKNGTITGTGRCTERANAD?`@AF?R@@?bAFH@|@FT@@?hAFh@DB?pBL"
+              },
+              "start_location": {
+                "lat": 59.3568357,
+                "lng": 18.0321814
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "87 m",
+                "value": 87
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 5
+              },
+              "end_location": {
+                "lat": 59.33691770000001,
+                "lng": 18.0105098
+              },
+              "html_instructions": "Take exit <b>161</b> toward <b>Route 275</b>/<wbr/><b>Vällingby</b>/<wbr/><b>Hornsberg</b>/<wbr/><b>Bromma flygplats</b>/<wbr/><b>Sankt Göran</b><div style=\"font-size:0.9em\">Toll road</div>",
+              "maneuver": "ramp-right",
+              "polyline": {
+                "points": "mkdiJ{v|lBJR?@@?t@Lf@Nh@P"
+              },
+              "start_location": {
+                "lat": 59.33766850000001,
+                "lng": 18.0108614
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "0.5 km",
+                "value": 482
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 59
+              },
+              "end_location": {
+                "lat": 59.33518479999999,
+                "lng": 18.0130296
+              },
+              "html_instructions": "Keep <b>right</b> at the fork to continue toward <b>Lindhagensgatan</b><div style=\"font-size:0.9em\">Toll road</div>",
+              "maneuver": "fork-right",
+              "polyline": {
+                "points": "wfdiJut|lBPHNJf@Pb@P\\LjAf@XLZPPNNLBBRR@BJLNPFFHDFBJ?PGLEBEHMBKDMBIB]@G?E@Q?WASMo@EKESKg@G]Gq@Eu@AWEo@I}@?CCg@Os@Eg@CSEc@"
+              },
+              "start_location": {
+                "lat": 59.33691770000001,
+                "lng": 18.0105098
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "0.4 km",
+                "value": 435
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 78
+              },
+              "end_location": {
+                "lat": 59.3379125,
+                "lng": 18.0078968
+              },
+              "html_instructions": "Turn <b>left</b> onto <b>Lindhagensgatan</b>",
+              "maneuver": "turn-left",
+              "polyline": {
+                "points": "{{ciJmd}lBSc@M`@wAnD{ApDSh@k@dBq@~AM`@qCzGWr@a@~@"
+              },
+              "start_location": {
+                "lat": 59.33518479999999,
+                "lng": 18.0130296
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "0.8 km",
+                "value": 817
+              },
+              "duration": {
+                "text": "2 mins",
+                "value": 125
+              },
+              "end_location": {
+                "lat": 59.3318547,
+                "lng": 18.0020117
+              },
+              "html_instructions": "Turn <b>left</b> onto <b>Nordenflychtsvägen</b>",
+              "maneuver": "turn-left",
+              "polyline": {
+                "points": "}ldiJkd|lBP`@xBjFbA~BXp@FJ@F@L@NBVAP?R?T@TBZBZ@DBP@FBF\\`AJVFN\\`@TNFBHDLBJ@V?B?PAB?p@GRAJ?XCDA@?H?DAb@ClAGNCJ?N@B@H@FDDDZRNLTRx@p@TRXRBBJF@@RLNNLHb@Vd@Zd@Xl@XZT"
+              },
+              "start_location": {
+                "lat": 59.3379125,
+                "lng": 18.0078968
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "0.1 km",
+                "value": 101
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 15
+              },
+              "end_location": {
+                "lat": 59.331388,
+                "lng": 18.003537
+              },
+              "html_instructions": "Turn <b>left</b> onto <b>Adlerbethsgatan</b>",
+              "maneuver": "turn-left",
+              "polyline": {
+                "points": "agciJq_{lBNcAd@aCP{@Ro@"
+              },
+              "start_location": {
+                "lat": 59.3318547,
+                "lng": 18.0020117
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "0.1 km",
+                "value": 130
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 22
+              },
+              "end_location": {
+                "lat": 59.33028779999999,
+                "lng": 18.0027792
+              },
+              "html_instructions": "Turn <b>right</b> onto <b>Frödingsvägen</b>",
+              "maneuver": "turn-right",
+              "polyline": {
+                "points": "edciJci{lBr@b@dBdA`Al@"
+              },
+              "start_location": {
+                "lat": 59.331388,
+                "lng": 18.003537
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "0.3 km",
+                "value": 274
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 72
+              },
+              "end_location": {
+                "lat": 59.3313903,
+                "lng": 17.9984838
+              },
+              "html_instructions": "Turn <b>right</b> at the 1st cross street onto <b>Rålambsvägen</b>",
+              "maneuver": "turn-right",
+              "polyline": {
+                "points": "i}biJkd{lBO|@o@dDMl@SjAOt@CJGb@Q|@a@vB?BCFMx@?@Ir@E^Ed@A^"
+              },
+              "start_location": {
+                "lat": 59.33028779999999,
+                "lng": 18.0027792
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "0.4 km",
+                "value": 409
+              },
+              "duration": {
+                "text": "2 mins",
+                "value": 110
+              },
+              "end_location": {
+                "lat": 59.3291671,
+                "lng": 18.0005508
+              },
+              "html_instructions": "Continue onto <b>Snoilskyvägen</b><div style=\"font-size:0.9em\">Destination will be on the left</div>",
+              "polyline": {
+                "points": "edciJoizlB?N?J@T?J@H@TBTBVDTBLBJBJDP@@DJFJDJFF@@FFJJHHDDFBF@D?B@LAHCJCHCHEHEFEDEHIHKFKFKFMBIBE@CHYRcAf@iC@E`@uB@Ej@uCX}A"
+              },
+              "start_location": {
+                "lat": 59.3313903,
+                "lng": 17.9984838
+              },
+              "travel_mode": "DRIVING"
+            }
+          ],
+          "traffic_speed_entry": [],
+          "via_waypoint": []
+        }
+      ],
+      "overview_polyline": {
+        "points": "m`qiJieplBv@aABFHHJ?HGDKBU?UAIb@]nAmAlCoC~BiC`AkAXU\\[PKXGBBJHRDJCLGJOJYF_@@UZeA\\k@|@eAxAaB`@]NGRA`AVR?NCRSJ[H_@Be@Eo@Uo@USWCI@QMs@mAgAaCkAeD{@yCw@gDi@eCEQMKMm@QiAy@_Fo@yD}AwJ}BiOoAyIYkCYcDQ{CG}D@{AFoCNiCXmCV{A`@cBh@cBtCsH`@aAh@eAbBmD^u@Bw@T[~@wA~AcDlAiCbEeKhBwEbDiIhA{CjDyI|D{JzCcIz@iCp@aCrAsFvBsJ`BkHr@mClAcE`CeHxBkFbCwErAyB|BaDjJ{LzFsH~B{CbAyArCsDxFiHnA_BhAuAfDyD`AeAFMz@}@hDqDpCwCbDsD~EaGzBqCtCgDzA{A|BiBjAo@vB}@nA]|@QdAMdCSnAKfE[`E[r@Kh@MpAc@pAs@pAeAjAmA^e@bA}A|@cBhCcFnAwB|AsBv@_A~@}@xBcBpBsAfBkAbBsA`B{AjAwAhBmCrD}G|D}HtDyH~CcHhAoC|B}F`AeC^aA^u@p@kAn@m@\\]z@m@j@S`AMh@Aj@@^Fl@P|@b@v@n@V\\tArCbCnItBjHfB~GtAzE`BtE`BfEv@rA`D`Fl@~@Tn@l@`An@vAp@xBj@pCVzBP|BJvBF`ECtCMfDa@`Eg@|CuBzLg@xCWvBY~CMbE?pEF~AV~Cd@xCb@dBZ`Al@rAp@fA|AtAh@Xp@R~@JT?fAOh@U~AgArAkAzAuA`B{@pAa@lAMbA?lCPjCNtBLJTv@LpA`@`@TjAb@hBt@t@^x@t@d@j@PHJ?PGPKLYDMFg@Bw@OcAWgAG]MgBQiCCg@Os@I{@Ec@Sc@eBpEoBzEk@dBq@~A_D|Hy@rBhF~LHRB\\@rAJrADX`@hARf@\\`@TNPHXDp@AjBMdDSRBPFfAz@lB|Ap@f@|BvAl@XZTt@eEd@kBxChB`Al@O|@}@rEo@pDw@`E]nCGdA?ZD`APpANj@Zj@^^LHL@f@Gd@UNOPWVi@J]z@mEpAwGX}A"
+      },
+      "summary": "E4",
+      "warnings": [],
+      "waypoint_order": []
+    },
+    {
+      "bounds": {
+        "northeast": {
+          "lat": 59.40247279999999,
+          "lng": 18.0212283
+        },
+        "southwest": {
+          "lat": 59.3283938,
+          "lng": 17.927014
+        }
+      },
+      "copyrights": "Map data ©2023 Google",
+      "legs": [
+        {
+          "distance": {
+            "text": "14.4 km",
+            "value": 14420
+          },
+          "duration": {
+            "text": "23 mins",
+            "value": 1375
+          },
+          "duration_in_traffic": {
+            "text": "20 mins",
+            "value": 1218
+          },
+          "end_address": "Fredhäll, Kungsholmen, Stockholm, Sweden",
+          "end_location": {
+            "lat": 59.3291671,
+            "lng": 18.0005508
+          },
+          "start_address": "Kista, Stockholm, Sweden",
+          "start_location": {
+            "lat": 59.40247279999999,
+            "lng": 17.9466089
+          },
+          "steps": [
+            {
+              "distance": {
+                "text": "0.4 km",
+                "value": 424
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 47
+              },
+              "end_location": {
+                "lat": 59.3992058,
+                "lng": 17.9499032
+              },
+              "html_instructions": "Head <b>southeast</b> on <b>Hanstavägen</b> toward <b>Hanstavägen</b><div style=\"font-size:0.9em\">Go through 1 roundabout</div>",
+              "polyline": {
+                "points": "m`qiJieplB`@g@TY@B@B@@BB@@@@B@@?B?@A@?BA@C@A@C@C@C@E?C@E?E?C?E?E?EAC?EHGXUJINOh@i@HIrAqANONQX[fAkAv@}@`AkAXUHIRQHGFCXG"
+              },
+              "start_location": {
+                "lat": 59.40247279999999,
+                "lng": 17.9466089
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "0.3 km",
+                "value": 284
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 28
+              },
+              "end_location": {
+                "lat": 59.3970695,
+                "lng": 17.951847
+              },
+              "html_instructions": "At the roundabout, take the <b>2nd</b> exit toward <b>E4</b>/<wbr/><b>279</b>/<wbr/><b>Stockholm C</b>",
+              "maneuver": "roundabout-right",
+              "polyline": {
+                "points": "alpiJ{yplBBBBBFDBBN@DADAFCDCDGDGDKDMBOBO@K?IPo@HUHQRYTYf@k@LOJMXYd@i@JKJIHGFCFCFAJ?JBRFRF"
+              },
+              "start_location": {
+                "lat": 59.3992058,
+                "lng": 17.9499032
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "0.7 km",
+                "value": 698
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 39
+              },
+              "end_location": {
+                "lat": 59.3911708,
+                "lng": 17.9477645
+              },
+              "html_instructions": "Merge onto <b>E18</b> via the ramp to <b>Hanstavägen</b>",
+              "maneuver": "ramp-right",
+              "polyline": {
+                "points": "u~oiJafqlBV\\f@^TP`Ax@`@^h@b@TPDDd@^RNp@f@FDRN@@`@XDBZRFFp@`@d@\\D@REh@^f@Xp@`@VLXNh@VRJRH?@VJRHTJPHRHVJTJhAf@VLRJTLVNPL"
+              },
+              "start_location": {
+                "lat": 59.3970695,
+                "lng": 17.951847
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "0.8 km",
+                "value": 752
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 40
+              },
+              "end_location": {
+                "lat": 59.3864004,
+                "lng": 17.9390129
+              },
+              "html_instructions": "Take exit <b>158</b> for <b>Route 279</b> toward <b>Sundbyberg</b>/<wbr/><b>Solna</b>/<wbr/><b>Rinkeby</b>/<wbr/><b>Bromma Flygplats</b>",
+              "maneuver": "ramp-right",
+              "polyline": {
+                "points": "yyniJolplBBR?B?@@@DDBBJJFFVXPT@BPRNVPVBHLRLV@BLV@DJVBBJX@BJZ@DJZ@@J\\@BHZ@DH\\HZBNH\\H`@Hh@Hb@Hh@F`@Hd@Hf@Ff@Hb@Hf@H`@Jd@DXNj@Ld@J^?@L`@L\\J^JVDFJXJVTd@NZPXNV?@PTPTPVJLVXPP@BNJBBNL@@PLBBLHBBTLPJPJTLRJRHX\\"
+              },
+              "start_location": {
+                "lat": 59.3911708,
+                "lng": 17.9477645
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "0.3 km",
+                "value": 257
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 14
+              },
+              "end_location": {
+                "lat": 59.3843571,
+                "lng": 17.9369397
+              },
+              "html_instructions": "Continue onto <b>Länsväg 279</b>/<wbr/><b>Route 279</b>",
+              "polyline": {
+                "points": "_|miJyunlBRHJFJFFBHFJDJFDDHDJHHFJFFFZVRPFHTTFHHJHHFHFJHJHLDHHJHJFJLTHJPTT\\V\\"
+              },
+              "start_location": {
+                "lat": 59.3864004,
+                "lng": 17.9390129
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "7.0 km",
+                "value": 6975
+              },
+              "duration": {
+                "text": "10 mins",
+                "value": 570
+              },
+              "end_location": {
+                "lat": 59.3344252,
+                "lng": 17.9687321
+              },
+              "html_instructions": "Keep <b>left</b> to continue on <b>Länsväg 279</b>",
+              "maneuver": "keep-left",
+              "polyline": {
+                "points": "gomiJ{hnlBr@bA~@pAJHPLNHRLn@\\\\Pf@Vr@Zb@R`@PdAd@PJNFPLPJRNNJHHLBTP^`@Z`@X`@NVVf@R`@JVXx@Pf@Nh@ZbAd@dBt@jCbAjDHVVx@^`A@BhAbCLTJPPX^j@`@d@LPLJ\\ZHFTPRPh@X@@`@V\\PTHPFRDTFPDh@H\\DN@N?V@R?j@Cl@Gh@ING@?TIVMXQNKLKb@_@VWV[?A\\g@P[FMDK@AP]?CJW^cAZaAJ]XaAVeAVgAJg@XaBPmAPmABSNiAPeB?AFcAB]HoAJaBDm@Bm@NeCDy@?AF{@Dk@JuABQ@QBSDg@D_@Fi@Ho@Fe@Hk@RuATwABIBSDSDWJe@FYT_Ad@qBV{@ZcARm@To@Ri@Ri@Pe@LWVk@DILYLSd@y@LUb@m@DGRW\\[JKLMb@YZU`@QVITIHCHANCFALATCZ?F?J?T@H@F?@@RBPBXFPDVHZH`@L^LHBVJf@N`AZt@Vl@PfBl@z@VdA\\RFNDb@JHBXFRBL@ZBF?`@@T?N?F?TCRARC@?VETEPGTERIVI`@SZODCJGTM`@Wn@]`@UDCh@Yf@YLIXOBCPMRORSPSPUDGJONU@ANYLWPa@L]L_@L_@Lg@Ja@F]Jc@D[BQF_@BSFa@PsARcBTuBHu@l@mF@MZeCV{BLcALgA`@kDPoAPkARkALo@@EBQH_@Jc@Ha@@EHYJc@Pq@Rw@L_@J]Ne@Xw@Nc@N]L[NYLWT]?ALQLQHKNQLSPQXWDCFEDENKPKNGBANE@?PET?TAL?J?NBF@NBVJRNFFDBBBRRBDJNRVr@fARZXb@v@pAPZBD^d@j@v@\\XPL@?VNJDJBLBR@L?LAFA@?@?NCPGZI`@KXINENEp@QZIZINGNCRITGLCLEPERGVIRERIRERKTIRKTKRKNGRKRKRKRKTKPIVMRKRKTKRKRKZOfAk@NIPIx@a@pAm@d@QHGJEhAq@d@Y`@UTMTMb@YjBcAvAy@d@W\\Sh@[ZO`@UVOlAo@p@]ZSJGHEZMRKTODA\\UFIDExAaBT[X]j@u@DGT[@AFIDI\\c@Z_@l@u@FI^e@^c@fBwB`@g@hC_Dh@s@vBmC|@iAr@}@Z_@^g@\\a@PSFIHG\\]DDD@B@D?H@@?DAD?F?B?HCDCDCBCBGDIBEFU"
+              },
+              "start_location": {
+                "lat": 59.3843571,
+                "lng": 17.9369397
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "2.3 km",
+                "value": 2313
+              },
+              "duration": {
+                "text": "3 mins",
+                "value": 164
+              },
+              "end_location": {
+                "lat": 59.33152579999999,
+                "lng": 18.0080914
+              },
+              "html_instructions": "<b>Länsväg 279</b> turns slightly <b>left</b> and becomes <b>Drottningholmsvägen</b>/<wbr/><b>Route 275</b>",
+              "polyline": {
+                "points": "ewciJqotlBBc@Dq@FcBFo@F_AJcABOb@sD`@uDjAkKDg@D]Bg@?G?K?KCk@a@kIE}@?W?Y?S@c@Be@?EPeDLgCDq@Be@?G@MDq@JoBL}BN_DD}@DcADu@DgAHyBH}BBuABi@?[?s@?m@?[?_@?EAw@EuACk@GqACOG_AGi@Gg@MsAIo@AOCSIw@Gm@Gm@K{@Eg@Ek@AKGcACk@?AC[Cw@Ao@?EAa@?W?WCg@?Q@K?A?U?G@c@?gA@gABcA?A@}@@G@cABcA?A?A@cABcA?A@g@@]?C@_A@WBsA@ADaA@SDi@@CDc@@O@YHaAFq@H{@Hu@Dk@LqALoA@GPkBN{ARmBH_AJ_At@oHPgBJcAD]Z}CLmAHq@@MBOHg@FYFe@\\sB"
+              },
+              "start_location": {
+                "lat": 59.3344252,
+                "lng": 17.9687321
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "0.6 km",
+                "value": 629
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 48
+              },
+              "end_location": {
+                "lat": 59.3314835,
+                "lng": 18.0190819
+              },
+              "html_instructions": "Keep <b>left</b> to stay on <b>Drottningholmsvägen</b>/<wbr/><b>Route 275</b><div style=\"font-size:0.9em\">Toll road</div>",
+              "maneuver": "keep-left",
+              "polyline": {
+                "points": "aeciJqe|lBJw@?EBUPiBFw@Dq@@_@@s@BkA@yB@eA?g@@mDAuBEaH?KAcBCuBAwACeA?WA_@?KAKEuAGqBEcBCs@Co@AS@g@"
+              },
+              "start_location": {
+                "lat": 59.33152579999999,
+                "lng": 18.0080914
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "0.1 km",
+                "value": 116
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 20
+              },
+              "end_location": {
+                "lat": 59.3309329,
+                "lng": 18.0207078
+              },
+              "html_instructions": "At <b>Lindhagensplan</b>, take the <b>1st</b> exit onto <b>Rålambshovsleden</b>",
+              "maneuver": "roundabout-right",
+              "polyline": {
+                "points": "wdciJgj~lBDK@CBIDOFa@@S?Q?KAKHIBGDIJOJUDMRu@Lu@"
+              },
+              "start_location": {
+                "lat": 59.3314835,
+                "lng": 18.0190819
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "0.3 km",
+                "value": 339
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 69
+              },
+              "end_location": {
+                "lat": 59.3283938,
+                "lng": 18.0188061
+              },
+              "html_instructions": "Slight <b>right</b> onto <b>Gjörwellsgatan</b>",
+              "maneuver": "turn-slight-right",
+              "polyline": {
+                "points": "iaciJmt~lBJKBE@EFUH[BIDK@A@ABABAB?F@DBD@BDr@dAXf@Xf@BDNN@B@@BBBFBFDBLJDJr@xAJTb@v@DH@BDDFFJDHBB?XB`@BR?Z\\"
+              },
+              "start_location": {
+                "lat": 59.3309329,
+                "lng": 18.0207078
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "1.2 km",
+                "value": 1224
+              },
+              "duration": {
+                "text": "4 mins",
+                "value": 226
+              },
+              "end_location": {
+                "lat": 59.3313903,
+                "lng": 17.9984838
+              },
+              "html_instructions": "Turn <b>right</b> onto <b>Rålambsvägen</b>",
+              "maneuver": "turn-right",
+              "polyline": {
+                "points": "mqbiJqh~lBEj@EtDAzAA|@AXAn@AhACfB?VC~CAz@GvE?`@Af@A\\?`@CXAH?P@P?Z?Z?Z@D?\\B`@?l@?t@At@?JIfBGt@G`@If@Ix@G\\EZEZ?@?@@NG\\QrAGb@Ih@A?K~@aApHGf@Ih@Gf@Ed@Ij@CNO~@CRCPKr@a@dC_@tBO|@o@dDMl@SjAOt@CJGb@Q|@a@vB?BCFMx@?@Ir@E^Ed@A^"
+              },
+              "start_location": {
+                "lat": 59.3283938,
+                "lng": 18.0188061
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "0.4 km",
+                "value": 409
+              },
+              "duration": {
+                "text": "2 mins",
+                "value": 110
+              },
+              "end_location": {
+                "lat": 59.3291671,
+                "lng": 18.0005508
+              },
+              "html_instructions": "Continue onto <b>Snoilskyvägen</b><div style=\"font-size:0.9em\">Destination will be on the left</div>",
+              "polyline": {
+                "points": "edciJoizlB?N?J@T?J@H@TBTBVDTBLBJBJDP@@DJFJDJFF@@FFJJHHDDFBF@D?B@LAHCJCHCHEHEFEDEHIHKFKFKFMBIBE@CHYRcAf@iC@E`@uB@Ej@uCX}A"
+              },
+              "start_location": {
+                "lat": 59.3313903,
+                "lng": 17.9984838
+              },
+              "travel_mode": "DRIVING"
+            }
+          ],
+          "traffic_speed_entry": [],
+          "via_waypoint": []
+        }
+      ],
+      "overview_polyline": {
+        "points": "m`qiJieplBv@aABFHHJ?HGDKBU?UAIb@]nAmAlCoC~BiC`AkAXU\\[PKXGBBJHRDJCLGJOJYF_@@UZeA\\k@|@eAxAaB`@]NGRA^JRFV\\|@p@bBxAjBzAfD`CdBhAREpAx@lCvA~@b@fEhBxAv@PLBR?DVVp@v@t@fA`@x@z@xBZ~@^zA`@xBd@tCd@zCj@lCf@hBj@|A|@rBr@hAfAtAf@d@f@`@x@f@nAn@X\\RHVNh@Xd@\\bAx@n@t@fAzAp@bA`DpEl@`@hCtAxB`AxBfA~@p@LBTPz@bAh@x@j@hAd@pA`@pAzD`NbAvCvAxC\\j@`ApAZ\\pAfAjBdApA^z@Nl@FfBAvAQPGl@Wh@]p@k@n@s@v@sAXo@j@{Af@_Bp@gCb@oBj@oDTaB`@oDFeA^}FXoFn@}Hb@kDp@kE^kBz@qDr@_CpAqD|@sBnA}Bh@u@p@s@XY~@o@x@[^Mn@IdACh@D~@NfBf@hBl@rLvDl@Nl@JrAFbAC`AKpA]zAq@lFyC|@k@f@c@b@i@b@o@\\q@^_At@iC\\oBd@iD`B}NbAsIrAoKf@sC`@kBz@gDbA{C|@wBp@iAt@cAx@s@TQ`@Sf@MdAAVDf@Nd@^v@`AxCxET`@jA|An@f@XNVH`@Dd@C~@UtEoArCw@nAa@rAm@~C{AxEaCbEkBdCyApBkAfGiDfH{DnAo@p@g@nB}BdAsAd@o@|GoIlIiKlDoE`AgA\\]DDHBV?ZCRSHOFUBc@LuCNoBtA}LpAsLHeACkAg@iK?q@DcB|@}Ph@_L^uJFoE?oBGmCK}BKoAOqA]gDe@oEUcDKaCEmEFyGJuGN{HNaCHw@z@}JpC}X~@gJ\\}Cv@{E`@}DLiBBsAFsH?cHEmHKwJ[oLEcA@g@DKDMLq@?}@^k@Pc@`@kBNQH[Ts@DCFALDHFjBzCVXFNRNhBrDFLLLTH\\Bt@BZ\\Ej@GpGCvAGxFQ|PCfA@xAB~@?bBA`AQ|Cc@`DKz@@NG\\YvByAzK_@~Ca@nCqA`IaB|IaB`JUzB?pAF`APfAPj@V`@b@b@XFl@M`@WRUNWPa@\\}Ah@oChBoJ"
+      },
+      "summary": "Länsväg 279",
+      "warnings": [],
+      "waypoint_order": []
+    },
+    {
+      "bounds": {
+        "northeast": {
+          "lat": 59.40247279999999,
+          "lng": 18.0586838
+        },
+        "southwest": {
+          "lat": 59.3291671,
+          "lng": 17.9466089
+        }
+      },
+      "copyrights": "Map data ©2023 Google",
+      "legs": [
+        {
+          "distance": {
+            "text": "17.1 km",
+            "value": 17103
+          },
+          "duration": {
+            "text": "22 mins",
+            "value": 1331
+          },
+          "duration_in_traffic": {
+            "text": "21 mins",
+            "value": 1238
+          },
+          "end_address": "Fredhäll, Kungsholmen, Stockholm, Sweden",
+          "end_location": {
+            "lat": 59.3291671,
+            "lng": 18.0005508
+          },
+          "start_address": "Kista, Stockholm, Sweden",
+          "start_location": {
+            "lat": 59.40247279999999,
+            "lng": 17.9466089
+          },
+          "steps": [
+            {
+              "distance": {
+                "text": "0.4 km",
+                "value": 424
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 47
+              },
+              "end_location": {
+                "lat": 59.3992058,
+                "lng": 17.9499032
+              },
+              "html_instructions": "Head <b>southeast</b> on <b>Hanstavägen</b> toward <b>Hanstavägen</b><div style=\"font-size:0.9em\">Go through 1 roundabout</div>",
+              "polyline": {
+                "points": "m`qiJieplB`@g@TY@B@B@@BB@@@@B@@?B?@A@?BA@C@A@C@C@C@E?C@E?E?C?E?E?EAC?EHGXUJINOh@i@HIrAqANONQX[fAkAv@}@`AkAXUHIRQHGFCXG"
+              },
+              "start_location": {
+                "lat": 59.40247279999999,
+                "lng": 17.9466089
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "0.3 km",
+                "value": 284
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 28
+              },
+              "end_location": {
+                "lat": 59.3970695,
+                "lng": 17.951847
+              },
+              "html_instructions": "At the roundabout, take the <b>2nd</b> exit toward <b>E4</b>/<wbr/><b>279</b>/<wbr/><b>Stockholm C</b>",
+              "maneuver": "roundabout-right",
+              "polyline": {
+                "points": "alpiJ{yplBBBBBFDBBN@DADAFCDCDGDGDKDMBOBO@K?IPo@HUHQRYTYf@k@LOJMXYd@i@JKJIHGFCFCFAJ?JBRFRF"
+              },
+              "start_location": {
+                "lat": 59.3992058,
+                "lng": 17.9499032
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "0.1 km",
+                "value": 138
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 13
+              },
+              "end_location": {
+                "lat": 59.39701159999999,
+                "lng": 17.9530282
+              },
+              "html_instructions": "Keep <b>left</b>, follow signs for <b>E18</b>",
+              "maneuver": "keep-left",
+              "polyline": {
+                "points": "u~oiJafqlBLBJ@FAH?DCFCBEBEBCDKDODMBQ@W@M?MEa@I]KQIKKGICM?I@"
+              },
+              "start_location": {
+                "lat": 59.3970695,
+                "lng": 17.951847
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "1.6 km",
+                "value": 1625
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 83
+              },
+              "end_location": {
+                "lat": 59.3990009,
+                "lng": 17.9772016
+              },
+              "html_instructions": "Merge onto <b>E18</b> via the ramp to <b>E4</b>",
+              "maneuver": "ramp-right",
+              "polyline": {
+                "points": "i~oiJmmqlBQMU[]q@_@s@g@mASe@M_@[}@Ma@YaAa@wAk@aCKe@I_@Om@EUIa@EQMKMm@Ge@Ic@Ie@[eBKm@Ge@Ie@G[Km@QiAQaAAGGe@YgBKm@Ie@Ge@Ie@Ic@Gg@Ia@Ga@c@uCc@yCIe@Gc@Ig@Ge@Ie@Ge@O_AKw@Gc@Gc@E_@Iq@Ea@CWMiAC[AQEk@Ca@Ee@A]Eu@Ae@Aq@Ak@Ay@?s@@g@@u@DyA@U@WDy@Da@Bc@Dc@Fa@Fc@Hg@BODSBOF[FWH[FSJ]?CRo@HQNc@BGBGVs@?Af@qA\\{@^{@Tk@JURa@Tc@n@uA\\s@P_@BC\\q@?A?A@?Bw@"
+              },
+              "start_location": {
+                "lat": 59.39701159999999,
+                "lng": 17.9530282
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "2.7 km",
+                "value": 2734
+              },
+              "duration": {
+                "text": "2 mins",
+                "value": 122
+              },
+              "end_location": {
+                "lat": 59.3811431,
+                "lng": 18.0096071
+              },
+              "html_instructions": "Merge onto <b>E4</b>",
+              "maneuver": "merge",
+              "polyline": {
+                "points": "wjpiJodvlBT[n@cANSR_@N[`@u@Xq@DIr@}ADGLY`@_AJW`CeGRg@j@}A\\{@Pc@LYHSHQ^aAnBaFXw@Vs@DIPe@@AXu@\\{@Vo@Rg@Pe@Zw@Vo@Rg@\\{@Xs@L[Ti@Zw@\\{@Ri@L[Zu@\\}@L[L]Z{@N_@J]Nc@L_@La@Nc@Lc@J[J]Jc@Ja@Ja@Lc@Jc@Ha@BIFYJa@Jc@Ha@@ATgATeANq@Pu@Pu@DSR}@Lk@Jc@Ja@Hc@H[Lg@Jc@Lc@J_@Le@Lg@J]ZcAVy@Nk@L]L_@L_@Z}@Na@L]L]N]L]N]L]N]N]N[L[LUPa@P[NYNYN[PYNYNYPYNW`@m@PWZc@j@w@b@m@f@m@`@i@fAwAb@k@b@k@b@m@t@aAv@cAb@i@PWRW\\e@T[d@m@b@i@r@_Ar@}@T[NSd@m@X_@h@y@rAeB~@mA|C_E"
+              },
+              "start_location": {
+                "lat": 59.3990009,
+                "lng": 17.9772016
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "0.3 km",
+                "value": 288
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 34
+              },
+              "end_location": {
+                "lat": 59.37897069999999,
+                "lng": 18.0099565
+              },
+              "html_instructions": "Take exit <b>Trafikplats Järva Krog</b> toward <b>E18</b>/<wbr/><b>Norrtälje</b>/<wbr/><b>Danderyd</b>",
+              "maneuver": "ramp-right",
+              "polyline": {
+                "points": "c{liJao|lBTB@?PSBAPSf@i@JKJKRQ\\[BCDC^[~@aAND@?HC@ABAB?@?BAB?HAD@H@HBHFHJBDBHDJDN?@DRBTFd@F`@"
+              },
+              "start_location": {
+                "lat": 59.3811431,
+                "lng": 18.0096071
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "0.1 km",
+                "value": 112
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 22
+              },
+              "end_location": {
+                "lat": 59.37812169999999,
+                "lng": 18.0106119
+              },
+              "html_instructions": "Turn <b>left</b> onto <b>Vallgatan</b>",
+              "maneuver": "turn-left",
+              "polyline": {
+                "points": "qmliJgq|lBHb@JMb@e@|@aAb@_@LO"
+              },
+              "start_location": {
+                "lat": 59.37897069999999,
+                "lng": 18.0099565
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "0.2 km",
+                "value": 216
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 25
+              },
+              "end_location": {
+                "lat": 59.3787442,
+                "lng": 18.0140412
+              },
+              "html_instructions": "Turn <b>left</b> onto <b>Enköpingsvägen</b>",
+              "maneuver": "turn-left",
+              "polyline": {
+                "points": "ghliJiu|lBR_@GYMk@Io@O{@WqBSiBAKUcBK{@OsA"
+              },
+              "start_location": {
+                "lat": 59.37812169999999,
+                "lng": 18.0106119
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "1.5 km",
+                "value": 1461
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 84
+              },
+              "end_location": {
+                "lat": 59.37986650000001,
+                "lng": 18.0395007
+              },
+              "html_instructions": "Continue onto <b>Bergshamravägen</b>",
+              "polyline": {
+                "points": "clliJwj}lBGg@KcAO{ASmBOeBEk@ImACm@Gy@Cu@CeACq@?c@Ao@?o@@W?E?s@@aBBqA?M?i@@k@@[?M?i@@i@@i@?g@BuA@iA?q@Ae@?]Ae@Au@Ac@Co@Ci@E{@G}@OoCGkAG{@KoBE{@Eg@Ci@Ce@Ck@Cg@AUCcAAQGkCCgACaAGkCGkCCwAAq@AMAaACqAA{@?]Ag@?g@?k@?k@?i@?e@ByA@eADyABo@DsAHeCBiABiA?[@c@?a@?m@CmACe@GkA"
+              },
+              "start_location": {
+                "lat": 59.3787442,
+                "lng": 18.0140412
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "0.2 km",
+                "value": 249
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 19
+              },
+              "end_location": {
+                "lat": 59.3787883,
+                "lng": 18.0429247
+              },
+              "html_instructions": "Take exit <b>176-Trafikplats Bergshamra</b> toward <b>E20</b>/<wbr/><b>Stockholm</b><div style=\"font-size:0.9em\">Toll road</div>",
+              "maneuver": "ramp-right",
+              "polyline": {
+                "points": "esliJ{ibmBBQ@M?QAWCe@Ac@?IA{@?W@Q?I@G@I@G@G@E@GBE@EBEBEDIV]?A@Ab@q@Xe@JQTa@\\u@Vs@@??A?AFo@"
+              },
+              "start_location": {
+                "lat": 59.37986650000001,
+                "lng": 18.0395007
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "1.8 km",
+                "value": 1841
+              },
+              "duration": {
+                "text": "2 mins",
+                "value": 96
+              },
+              "end_location": {
+                "lat": 59.3635258,
+                "lng": 18.0543764
+              },
+              "html_instructions": "Continue onto <b>Roslagsvägen</b><div style=\"font-size:0.9em\">Toll road</div>",
+              "polyline": {
+                "points": "mlliJg_cmBZg@\\y@^w@`@w@NUNYdAuABEr@y@RSRUPUPQPSRSPOPQRSPQTSRSRQNO@Af@e@RSPQRQRSPQTSPQPQPQRUPQBCLORUNS@APUPWPWHMDIRWNWPYNURYPURWPSPSJIFGNO@ARQRODCLIPMBATMPKPITKRIRIVIf@Mz@SXGtAW|@Q~@QREf@KRERGVI\\K\\Mh@Uh@Uj@[p@]h@[r@a@n@[@Ah@Yv@e@TKn@_@t@_@b@Sd@Q`A[HCj@Or@MPELCLEDADA\\Iv@UPGXKPIVO^S@AVOd@[XW`@_@"
+              },
+              "start_location": {
+                "lat": 59.3787883,
+                "lng": 18.0429247
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "0.6 km",
+                "value": 567
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 31
+              },
+              "end_location": {
+                "lat": 59.3588994,
+                "lng": 18.0585971
+              },
+              "html_instructions": "Keep <b>left</b> to continue on <b>Norra Länken</b>, follow signs for <b>E20</b>/<wbr/><b>Lidingö</b>/<wbr/><b>E4</b>/<wbr/><b>Helsingborg</b><div style=\"font-size:0.9em\">Toll road</div>",
+              "maneuver": "keep-left",
+              "polyline": {
+                "points": "amiiJ{femBjAeAFGl@g@Z[NMt@q@RQPQNOd@a@b@a@r@q@HEv@o@h@e@b@a@j@c@hAaABEjAeAp@m@^]NMPM^]ZY"
+              },
+              "start_location": {
+                "lat": 59.3635258,
+                "lng": 18.0543764
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "0.7 km",
+                "value": 661
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 38
+              },
+              "end_location": {
+                "lat": 59.35377879999999,
+                "lng": 18.0547784
+              },
+              "html_instructions": "Take the exit toward <b>E4</b>/<wbr/><b>Helsingborg</b>",
+              "maneuver": "ramp-right",
+              "polyline": {
+                "points": "cphiJgafmB`@A@?L?NADA\\CD?V?`@?L?R?N?L?@?`@AT?HAXAF?^A@@ZH@?@@`@JHBTH@@\\NB@PHHDDDXR^V@@DD@?RP^XJH@@NLVPFFNL@@JJRNJHNLBDHJVZDDTV?@BB@@?@V\\BB@@Zb@@@Vb@@@@@R\\BF@@@BVp@LZBJ@D@D@@?FB\\AV?F?LGr@"
+              },
+              "start_location": {
+                "lat": 59.3588994,
+                "lng": 18.0585971
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "0.6 km",
+                "value": 585
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 33
+              },
+              "end_location": {
+                "lat": 59.35165439999999,
+                "lng": 18.0454146
+              },
+              "html_instructions": "Merge onto <b>E20</b>",
+              "maneuver": "merge",
+              "polyline": {
+                "points": "cpgiJkiemB@TBn@DdAFbADdADdA@JFv@?@Lz@?@N|@P~@N|@N~@N~@N|@N~@N|@N~@N|@N~@Jj@BPr@`ELt@f@lCFXHb@BPn@fD"
+              },
+              "start_location": {
+                "lat": 59.35377879999999,
+                "lng": 18.0547784
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "3.2 km",
+                "value": 3183
+              },
+              "duration": {
+                "text": "3 mins",
+                "value": 170
+              },
+              "end_location": {
+                "lat": 59.33766850000001,
+                "lng": 18.0108614
+              },
+              "html_instructions": "Keep <b>left</b> to stay on <b>E20</b>",
+              "maneuver": "keep-left",
+              "polyline": {
+                "points": "ybgiJyncmBhApGHb@F^?@F\\Hd@Nx@@FLn@BRVlB@@L|@?BBNHj@@DJx@@FLx@@FJv@?@@FJt@BH@LHf@@JJt@?@BHD\\BT@N@J@NFt@?@HbAFl@@@Dj@DTFf@DXPv@Rx@b@hBRt@H\\DNt@lCFPTx@@DJ\\L`@L`@J`@L^J`@L^vA`F`@rAj@hBnAhDb@~@d@~@j@z@d@p@PTX^RZHHHLBDPVPVRXNTTXJFXd@RZLXPZL\\@BLZLb@DJNl@Ld@Hd@Jd@F^DZBNDf@Ff@Dj@BZ@NDd@Bd@Bj@Bd@Bl@BpA?j@?T?P?j@Al@Ah@Ah@Cf@Ad@En@Ef@Gr@K|@Gf@Id@Ih@If@Id@Ib@Id@Ib@Id@Id@Kd@Gb@o@vDSfAAFEXKn@EVCTG^Eh@G`@I~@C^C\\Ev@Cf@Aj@Av@Ah@?fA?z@@b@@Z@Z?@Bd@@\\Fp@Dh@Fd@NnAJd@Hb@H\\DPFTJ^J^N`@N`@\\p@JNTb@HLDDFFJJl@h@ZVLHJDBBJDJDLDLDH@`@F\\BJ?H?NALCXENCZKLIh@]t@i@t@q@DCPODEFGLMb@_@`@_@`@QRMVORKNGTITGTGRCTERANAD?`@AF?R@@?bAFH@|@FT@@?hAFh@DB?pBL"
+              },
+              "start_location": {
+                "lat": 59.35165439999999,
+                "lng": 18.0454146
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "87 m",
+                "value": 87
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 5
+              },
+              "end_location": {
+                "lat": 59.33691770000001,
+                "lng": 18.0105098
+              },
+              "html_instructions": "Take exit <b>161</b> toward <b>Route 275</b>/<wbr/><b>Vällingby</b>/<wbr/><b>Hornsberg</b>/<wbr/><b>Bromma flygplats</b>/<wbr/><b>Sankt Göran</b><div style=\"font-size:0.9em\">Toll road</div>",
+              "maneuver": "ramp-right",
+              "polyline": {
+                "points": "mkdiJ{v|lBJR?@@?t@Lf@Nh@P"
+              },
+              "start_location": {
+                "lat": 59.33766850000001,
+                "lng": 18.0108614
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "0.5 km",
+                "value": 482
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 59
+              },
+              "end_location": {
+                "lat": 59.33518479999999,
+                "lng": 18.0130296
+              },
+              "html_instructions": "Keep <b>right</b> at the fork to continue toward <b>Lindhagensgatan</b><div style=\"font-size:0.9em\">Toll road</div>",
+              "maneuver": "fork-right",
+              "polyline": {
+                "points": "wfdiJut|lBPHNJf@Pb@P\\LjAf@XLZPPNNLBBRR@BJLNPFFHDFBJ?PGLEBEHMBKDMBIB]@G?E@Q?WASMo@EKESKg@G]Gq@Eu@AWEo@I}@?CCg@Os@Eg@CSEc@"
+              },
+              "start_location": {
+                "lat": 59.33691770000001,
+                "lng": 18.0105098
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "0.4 km",
+                "value": 435
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 78
+              },
+              "end_location": {
+                "lat": 59.3379125,
+                "lng": 18.0078968
+              },
+              "html_instructions": "Turn <b>left</b> onto <b>Lindhagensgatan</b>",
+              "maneuver": "turn-left",
+              "polyline": {
+                "points": "{{ciJmd}lBSc@M`@wAnD{ApDSh@k@dBq@~AM`@qCzGWr@a@~@"
+              },
+              "start_location": {
+                "lat": 59.33518479999999,
+                "lng": 18.0130296
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "0.8 km",
+                "value": 817
+              },
+              "duration": {
+                "text": "2 mins",
+                "value": 125
+              },
+              "end_location": {
+                "lat": 59.3318547,
+                "lng": 18.0020117
+              },
+              "html_instructions": "Turn <b>left</b> onto <b>Nordenflychtsvägen</b>",
+              "maneuver": "turn-left",
+              "polyline": {
+                "points": "}ldiJkd|lBP`@xBjFbA~BXp@FJ@F@L@NBVAP?R?T@TBZBZ@DBP@FBF\\`AJVFN\\`@TNFBHDLBJ@V?B?PAB?p@GRAJ?XCDA@?H?DAb@ClAGNCJ?N@B@H@FDDDZRNLTRx@p@TRXRBBJF@@RLNNLHb@Vd@Zd@Xl@XZT"
+              },
+              "start_location": {
+                "lat": 59.3379125,
+                "lng": 18.0078968
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "0.1 km",
+                "value": 101
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 15
+              },
+              "end_location": {
+                "lat": 59.331388,
+                "lng": 18.003537
+              },
+              "html_instructions": "Turn <b>left</b> onto <b>Adlerbethsgatan</b>",
+              "maneuver": "turn-left",
+              "polyline": {
+                "points": "agciJq_{lBNcAd@aCP{@Ro@"
+              },
+              "start_location": {
+                "lat": 59.3318547,
+                "lng": 18.0020117
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "0.1 km",
+                "value": 130
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 22
+              },
+              "end_location": {
+                "lat": 59.33028779999999,
+                "lng": 18.0027792
+              },
+              "html_instructions": "Turn <b>right</b> onto <b>Frödingsvägen</b>",
+              "maneuver": "turn-right",
+              "polyline": {
+                "points": "edciJci{lBr@b@dBdA`Al@"
+              },
+              "start_location": {
+                "lat": 59.331388,
+                "lng": 18.003537
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "0.3 km",
+                "value": 274
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 72
+              },
+              "end_location": {
+                "lat": 59.3313903,
+                "lng": 17.9984838
+              },
+              "html_instructions": "Turn <b>right</b> at the 1st cross street onto <b>Rålambsvägen</b>",
+              "maneuver": "turn-right",
+              "polyline": {
+                "points": "i}biJkd{lBO|@o@dDMl@SjAOt@CJGb@Q|@a@vB?BCFMx@?@Ir@E^Ed@A^"
+              },
+              "start_location": {
+                "lat": 59.33028779999999,
+                "lng": 18.0027792
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "0.4 km",
+                "value": 409
+              },
+              "duration": {
+                "text": "2 mins",
+                "value": 110
+              },
+              "end_location": {
+                "lat": 59.3291671,
+                "lng": 18.0005508
+              },
+              "html_instructions": "Continue onto <b>Snoilskyvägen</b><div style=\"font-size:0.9em\">Destination will be on the left</div>",
+              "polyline": {
+                "points": "edciJoizlB?N?J@T?J@H@TBTBVDTBLBJBJDP@@DJFJDJFF@@FFJJHHDDFBF@D?B@LAHCJCHCHEHEFEDEHIHKFKFKFMBIBE@CHYRcAf@iC@E`@uB@Ej@uCX}A"
+              },
+              "start_location": {
+                "lat": 59.3313903,
+                "lng": 17.9984838
+              },
+              "travel_mode": "DRIVING"
+            }
+          ],
+          "traffic_speed_entry": [],
+          "via_waypoint": []
+        }
+      ],
+      "overview_polyline": {
+        "points": "m`qiJieplBv@aABFHHJ?HGDKBU?UAIb@]nAmAlCoC~BiC`AkAXU\\[PKXGBBJHRDJCLGJOJYF_@@UZeA\\k@|@eAxAaB`@]NGRA`AVR?NCRSJ[H_@Be@Eo@Uo@USWCI@QMs@mAgAaCkAeD{@yCw@gDi@eCEQMKMm@QiAy@_Fo@yD}AwJ}BiOoAyIYkCYcDQ{CG}D@{AFoCNiCXmCV{A`@cBh@cBtCsH`@aAh@eAbBmD^u@Bw@T[~@wA~AcDlAiCbEeKhBwEbDiIhA{CjDyI|D{JzCcIz@iCp@aCrAsFvBsJ`BkHr@mClAcE`CeHxBkFbCwErAyB|BaDjJ{LzFsH~B{CbAyArCsD|C_ETBh@i@rAsAfA_A~@aAND@?RGHAN?RDRRFNPp@\\`Cn@s@`BaB`@o@UeAYkBk@{Es@_Gw@uHc@mGSgF?{CDmFFkGDyFE_DOyDg@uIi@mKi@{UM}J?gDNiHVmJ@oCGsBGkABQ@_@E}@CaCDm@F]LW^k@~AkCv@kBFq@x@aB`AoB^o@hA{AfAmAhAqAjAiA|CwCvCsCv@{@v@aAxBgDjA{At@u@n@g@x@g@lAk@j@SbBa@lFcAbB_@|By@tAq@zAy@nCyArDqBhAe@jA_@~Bg@v@ShA]j@UpAu@~@s@lBeB`ByAjBeBfC{BpD{ClGuFz@w@b@A`AG~B?dBE`@?\\HbAZb@RZN^Xh@^`Av@lB|At@z@^b@|@lAn@dA^~@Tr@B~@GhARnEJjCHbA\\|B`CxNn@zDpB~K`DrQh@vCj@`El@hEj@bE^`DXhDTjBVpAv@bDxApF`BtFrCvJzBrGhA~B|BbDf@r@z@nAd@n@JFXd@`@t@^x@b@nA\\rATjAVrBR~BLvBJpEA`CI`DKvASpBe@~Cg@rCsBvL]|B[jDOhDC`B?bCD|AR~CVtBJd@`@hBV~@^bAhArBfAbAx@j@r@Vj@Hh@B`AKj@Ov@g@bCoB~@{@`@_@`@Qj@]nAe@h@Kh@G~@CbG\\l@DpBLJR@@|A\\z@Zv@\\fDtAl@`@RPp@v@PLRB^MLSLc@F}@Ak@YoAKg@OoAW{DCk@U{AIw@Sc@M`@sD`J_AnCiFpMa@~@P`@|DjJ`@|@BTBlAHbBJf@h@xAd@p@\\RVHb@@TAtAIj@EfCQh@Dx@l@~BlBd@Z\\XhAr@rAr@ZTNcAv@}DRo@r@b@fDrB_AbFu@zD{@|E[vBKdAAn@Bv@NxAPv@Td@\\\\NNND`@Ch@S`@a@Zo@DI\\}AlAkGdAsF"
+      },
+      "summary": "E20",
+      "warnings": [],
+      "waypoint_order": []
+    }
+  ],
+  "status": "OK"
+}
