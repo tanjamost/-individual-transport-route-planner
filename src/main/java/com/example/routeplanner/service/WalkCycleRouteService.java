@@ -42,18 +42,18 @@ public class WalkCycleRouteService {
                 .queryParam("origin", destination)
                 .build()
                 .toUri();
-        response = restTemplate.getForObject(uri, ApiResponse.class);
+        response = restTemplate.getForObject(uri, ApiResponse.class);                       //retur resa
         routes.addAll(response.getRoutes());
         return routes.stream()
                 .map(this::toRoute)
                 .toList();
     }
-    private Route toRoute(ApiRoute apiRoute){                                   //omvandlar G route to my route
+    private Route toRoute(ApiRoute apiRoute){                                   //omvandlar G apiroute to min route
 
         Route route = new Route();
 
         Leg leg = apiRoute.getLegs().get(0);
-        int value = Integer.parseInt(leg.getDuration().get("value"));           //tid
+        int value = Integer.parseInt(leg.getDuration().get("value"));                       //tid
         List<Step> steps= leg.getSteps().stream()
                 .map(step ->new Step(step.getDistance().get("text"), clearHtml(step.getHtmlInstructions())))               //får distanslist+instrukt
                 .toList();
