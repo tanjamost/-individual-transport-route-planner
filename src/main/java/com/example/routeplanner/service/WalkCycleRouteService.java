@@ -48,14 +48,14 @@ public class WalkCycleRouteService {
                 .map(this::toRoute)
                 .toList();
     }
-    private Route toRoute(ApiRoute apiRoute){                                   //omvandlar G apiroute to min route
+    private Route toRoute(ApiRoute apiRoute){                                   //omvandlar G api-route to min route
 
         Route route = new Route();
 
         Leg leg = apiRoute.getLegs().get(0);
         int value = Integer.parseInt(leg.getDuration().get("value"));                       //tid
         List<Step> steps= leg.getSteps().stream()
-                .map(step ->new Step(step.getDistance().get("text"), clearHtml(step.getHtmlInstructions())))               //får distanslist+instrukt
+                .map(step ->new Step(step.getDistance().get("text"), clearHtml(step.getHtmlInstructions())))               //får distanslist+instruct
                 .toList();
 
         route.setSteps(steps);
