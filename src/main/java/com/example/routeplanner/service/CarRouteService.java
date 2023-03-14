@@ -31,7 +31,7 @@ public class CarRouteService {
                 .queryParam("departure_time", "now")
                 .build()
                 .toUri();
-        ApiResponse response = restTemplate.getForObject(uri, ApiResponse.class);           //respons
+        ApiResponse response = restTemplate.getForObject(uri, ApiResponse.class);
         List<ApiRoute> routes = response.getRoutes();
         uri = UriComponentsBuilder.fromUriString(url)
                 .queryParam("key", key)
@@ -47,7 +47,7 @@ public class CarRouteService {
                 .map(this::toRoute)
                 .toList();
     }
-    private Route toRoute(ApiRoute apiRoute){                                                                           //omvandlar Go route to my route
+    private Route toRoute(ApiRoute apiRoute){
         Route route = new Route();
 
         Leg leg = apiRoute.getLegs().get(0);
@@ -55,12 +55,12 @@ public class CarRouteService {
 
         List<Step> steps= leg.getSteps().stream()
                 .map(step ->new Step(step.getDistance().get("text"), clearHtml(step.getHtmlInstructions())))
-                .toList();                                                                                              // får distanslist+instrukt
+                .toList();
 
         route.setSteps(steps);
         route.setDurationInTraffic(leg.getDurationInTraffic().get("text"));
 
-        String arrivalTime = LocalTime.now().plusSeconds(value).format(DateTimeFormatter.ofPattern("HH:mm"));          //realTid+gångTid=arrivalTid
+        String arrivalTime = LocalTime.now().plusSeconds(value).format(DateTimeFormatter.ofPattern("HH:mm"));
         route.setArrivalTime(arrivalTime);
         return route;
     }
