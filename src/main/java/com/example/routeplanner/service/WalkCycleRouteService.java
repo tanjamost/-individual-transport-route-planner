@@ -25,7 +25,7 @@ public class WalkCycleRouteService {
     @Value("${api.key}")
     private String key;
     RestTemplate restTemplate = new RestTemplate();
-    public List<Route> getRoutes(String mode, String destination, String origin){           // url  request
+    public List<Route> getRoutes(String mode, String destination, String origin){
         URI uri = UriComponentsBuilder.fromUriString(url)
                 .queryParam("key", key)
                 .queryParam("mode", mode)
@@ -33,7 +33,7 @@ public class WalkCycleRouteService {
                 .queryParam("origin", origin)
                 .build()
                 .toUri();
-        ApiResponse response = restTemplate.getForObject(uri, ApiResponse.class);           //respons
+        ApiResponse response = restTemplate.getForObject(uri, ApiResponse.class);
         List<ApiRoute> routes = response.getRoutes();
         uri = UriComponentsBuilder.fromUriString(url)
                 .queryParam("key", key)
@@ -48,19 +48,19 @@ public class WalkCycleRouteService {
                 .map(this::toRoute)
                 .toList();
     }
-    private Route toRoute(ApiRoute apiRoute){                                   //omvandlar G api-route to min route
+    private Route toRoute(ApiRoute apiRoute){
 
         Route route = new Route();
 
         Leg leg = apiRoute.getLegs().get(0);
-        int value = Integer.parseInt(leg.getDuration().get("value"));                       //tid
+        int value = Integer.parseInt(leg.getDuration().get("value"));
         List<Step> steps= leg.getSteps().stream()
-                .map(step ->new Step(step.getDistance().get("text"), clearHtml(step.getHtmlInstructions())))               //får distanslist+instruct
+                .map(step ->new Step(step.getDistance().get("text"), clearHtml(step.getHtmlInstructions())))
                 .toList();
 
         route.setSteps(steps);
         route.setDuration(leg.getDuration().get("text"));
-        String arrivalTime = LocalTime.now().plusSeconds(value).format(DateTimeFormatter.ofPattern("HH:mm"));          //realTid+gångTid=arrivalTid
+        String arrivalTime = LocalTime.now().plusSeconds(value).format(DateTimeFormatter.ofPattern("HH:mm"));
         route.setArrivalTime(arrivalTime);
 
         route.setWeather(weatherService.getWeather(leg.getEndLocation().get("lat"), leg.getEndLocation().get("lng")));

@@ -1,19 +1,27 @@
 package com.example.routeplanner.controller;
 
-import com.example.routeplanner.model.FavoriteRoute;
-import org.springframework.web.bind.annotation.RestController;
+import com.example.routeplanner.model.Route;
+import com.example.routeplanner.service.FavoriteRouteService;
+import lombok.AllArgsConstructor;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 @RestController
+@AllArgsConstructor
+@RequestMapping("/favorite")
 public class FavoriteRoutesController {
-    public void saveRoute(){
-
+    private FavoriteRouteService favoriteRouteService;
+    @PostMapping
+    public void saveRoute(@RequestParam String destination, @RequestParam String origin, @RequestParam String mode,  @RequestParam String username){
+        favoriteRouteService.saveRoute(destination, origin, mode, username);
     }
-    public List<FavoriteRoute> getRoutes(){
-        return null;
+    @GetMapping
+    public List<Route> getRoutes(@RequestParam String username){
+        return favoriteRouteService.getRoutesByUsername(username);
     }
-    public void removeRoute(){
-
+    @DeleteMapping("/{id}")
+    public void removeRoute(@PathVariable int id, @RequestParam String username){
+        favoriteRouteService.deleteById(id, username);
     }
 }
